@@ -3,9 +3,13 @@ title: Sales Qualifier中的帐户
 description: 了解如何在Sales Qualifier中查看客户情报（包括AI研究、最新新闻、机会和主要参与联系人）以优先开展外联。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
 workflow-type: tm+mt
 source-wordcount: 632
