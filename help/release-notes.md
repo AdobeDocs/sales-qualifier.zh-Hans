@@ -3,23 +3,22 @@ title: Sales Qualifier发行说明
 description: 了解Sale Qualifier中的新增功能。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 1fb149668518a8f6e3d47f60ec962b13554121f1
+source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 12%
 
 ---
 
-
 # Sales Qualifier发行说明
 
-**08-17-2026**
+## 08-17-2026
 
 [!DNL Sales Qualifier]现已作为独立应用程序提供。 它最初作为Adobe Journey Optimizer B2B的一部分发布。
 
 此版本包括：
 
-* 通过AI生成的活动摘要和基于信号的评分，确定潜在客户和客户的优先级。 [&#128279;](accounts.md#account-insights)了解有关潜在客户或[帐户的更多信息](prospects.md#review-prospect-details)。
+* 通过AI生成的活动摘要和基于信号的评分，确定潜在客户和客户的优先级。 [了解有关潜在客户或[帐户的更多信息](prospects.md#review-prospect-details)](accounts.md#account-insights)。
 * 目标驱动的出站工作流，具有AI建议的节奏和草拟的电子邮件。 [了解详情](outbound-workflows.md)。
 * 电话、LinkedIn InMails和电子邮件审阅的统一任务队列。 [了解详情](tasks.md)。
 * 通过日历集成自动预订会议。 [了解详情](outbound-workflows.md#meeting-booking)。

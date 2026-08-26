@@ -1,19 +1,15 @@
 ---
 title: Sales Qualifier中的潜在客户
-description: 了解如何在Sales Qualifier中构建、筛选和审查潜在客户列表以优先开展外展活动。
+description: 了解如何在Sales Qualifier中从CRM、导入和手动添加的来源构建潜在客户列表、筛选潜在客户以及查看潜在客户详细信息。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: 549
 ht-degree: 2%
 
 ---
@@ -67,18 +63,18 @@ ht-degree: 2%
 
 在&#x200B;**[!UICONTROL 我的机会联系人]**&#x200B;中，您还可以按联系人关联机会中的字段筛选联系人，如阶段、类型和关闭日期。 机会字段具有标签，例如&#x200B;**[!UICONTROL 阶段（机会）]**，这会将它们与联系人字段区分开来。 您的管理员控制哪些机会字段可用作过滤器。
 
-### 按Marketo参与度过滤
+### 按营销亮点过滤
 
 根据潜在客户的实时[!DNL Marketo]参与情况（如电子邮件打开数和点击数、Web访问数、表单填写数和有趣时刻）查找潜在客户并确定其优先级。 参与几乎实时地出现。
 
-要按Marketo参与度筛选潜在客户，请执行以下操作：
+要按营销亮点筛选潜在客户，请执行以下操作：
 
 1. 选择&#x200B;**[!UICONTROL 筛选器]**。
-1. 添加[!DNL Marketo]参与过滤器，并设置活动类型、营销活动或其他属性以重点关注重要的参与。
+1. 添加营销亮点过滤器并设置活动类型、营销活动或其他属性，以重点关注重要的参与。
 
 每个潜在客户显示其最新的[!DNL Marketo]活动以及最近的历史记录。
 
-Marketo参与过滤功能在所有生产地区都可用。 管理员为您的组织和沙盒打开该设置，营销人员在[!DNL Marketo]中完成一次性设置。 请参阅[打开Marketo参与筛选](integrations.md#turn-on-marketo-engagement-filtering)。
+营销亮点适用于所有生产区域。 管理员完成一次性设置，将[!DNL Marketo]连接到Sales Qualifier。 请参阅[设置营销亮点](integrations.md#turn-on-marketo-engagement-filtering)。
 
 ## 查看目标客户详细信息
 
