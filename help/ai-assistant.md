@@ -4,15 +4,11 @@ description: 了解如何使用Sales Qualifier中的AI Chat研究客户、草稿
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
-product_v2:
-  - id: d98caee2-fd67-486e-9513-36435358ebff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d98caee2-fd67-486e-9513-36435358ebff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 401
 ht-degree: 1%
@@ -26,7 +22,7 @@ AI Chat会根据您的销售情况回答自然语言问题。 使用它来研究
 
 ## 打开AI聊天
 
-选择浮动的&#x200B;**[!UICONTROL AI Chat]**&#x200B;按钮以打开聊天面板。 此时将在当前页面旁边打开面板，以便您可以查看潜在客户、帐户或参与计划。 拖动面板的边缘以调整其大小。 若要关闭面板，请再次选择&#x200B;**[!UICONTROL AI Chat]**。
+选择浮动的&#x200B;**[!UICONTROL AI Chat]**&#x200B;按钮以打开聊天面板。 此时将在当前页面旁边打开面板，以便您可以查看潜在客户、帐户或出站工作流。 拖动面板的边缘以调整其大小。 若要关闭面板，请再次选择&#x200B;**[!UICONTROL AI Chat]**。
 
 >[!NOTE]
 >
@@ -49,7 +45,7 @@ AI Chat可以使用以下源：
 * **研究和摘要**：要求帐户、购买团体或潜在客户最近预订的摘要。
 * **内部版本定位**：在会议之前，要求助理为特定帐户定位您的解决方案。
 * **草稿并优化外联**：要求它编写或重写电子邮件。 指定语调、长度、语言以及是否包含表情符号。
-* **获取推荐**：询问哪些潜在客户或客户要优先处理，或请求新参与计划的目标或节奏。
+* **获取推荐**：询问哪些潜在客户或帐户要排定优先级，或请求新出站工作流的目标或节奏。
 * **查找联系人详细信息**：要求助理使用更多联系人和背景信息丰富潜在客户。
 
 ## 在您的剧本中给出答案

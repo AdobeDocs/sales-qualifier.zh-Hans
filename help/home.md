@@ -4,15 +4,10 @@ description: 了解Sales Qualifier，它是一款人工智能驱动的应用程�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 412
 ht-degree: 22%
@@ -29,20 +24,20 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 ## 在Sales Qualifier中可以做什么
 
 * **使用AI生成的活动摘要和基于信号的优先级来排定潜在客户和帐户的优先级**。
-* **构建目标驱动型参与计划**，其中AI为每个潜在客户建议节奏并草稿个性化电子邮件。
+* **构建目标驱动的出站工作流**，其中AI为每个潜在客户建议节奏并草稿个性化电子邮件。
 * **在一个队列中处理外联**&#x200B;以进行电话通话、LinkedIn InMails和电子邮件审核。
 * **通过连接您的日历并将个人预订链接插入您的节奏中，自动预订会议**。
 * **通过在知识中心构建行动手册，使用您自己的资料通知AI外展人员**。
 * **使用自然语言提问** AI Chat，它使用您的CRM、参与和知识中心数据。
 * **通过电子邮件和会议预约报告跟踪外展业绩**。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476571?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 ## 浏览指南
 
 ::::landing-cards-container
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 快速入门
 
@@ -52,7 +47,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 潜在客户
 
@@ -62,7 +57,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 帐户
 
@@ -72,7 +67,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 出站工作流
 
@@ -82,7 +77,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 任务
 
@@ -92,7 +87,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 性能
 
@@ -102,7 +97,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 知识中心
 
@@ -112,7 +107,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 集成
 
@@ -122,7 +117,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 轮廓设置
 
@@ -132,7 +127,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 用户角色和权限
 
@@ -142,7 +137,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 人工智能聊天
 

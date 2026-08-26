@@ -3,18 +3,12 @@ title: 管理集成
 description: 了解如何在Sales Qualifier中连接Outlook、管理CRM连接、映射入站字段、同步活动和配置全局电子邮件选择退出。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User, Admin
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
-source-wordcount: 1412
+source-wordcount: 1379
 ht-degree: 1%
 
 ---
@@ -96,6 +90,8 @@ Sales Qualifier只读取它发送的电子邮件回复，而不会读取收件�
 
    输入&#x200B;**[!UICONTROL 客户端ID（使用者密钥）]**、**[!UICONTROL 实例URL]**&#x200B;和&#x200B;**[!UICONTROL 客户端密钥]**。 使用规范实例URL表单`https://{{mydomain}}.my.salesforce.com`。
 
+   ![Salesforce连接](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+
    >[!TAB Microsoft Dynamics]
 
    输入&#x200B;**[!UICONTROL 客户端ID（使用者密钥）]**、**[!UICONTROL 租户ID]**、**[!UICONTROL Microsoft Dynamics实例URL]**&#x200B;和&#x200B;**[!UICONTROL 客户端密钥]**。 使用规范实例URL表单`https://{{mydomain}}.crm.dynamics.com`。
@@ -117,7 +113,7 @@ Sales Qualifier只读取它发送的电子邮件回复，而不会读取收件�
 
 >[!WARNING]
 >
->当您断开CRM连接时，参与计划会暂停您组织中的所有潜在客户，并且在您重新连接之前，不会有任何新潜在客户从您的CRM同步。
+>断开CRM连接后，组织中所有潜在客户的出站工作流都会暂停，并且在您重新连接之前，不会有任何新潜在客户从您的CRM同步。
 
 ## 映射CRM字段（入站映射） {#map-crm-fields-inbound-mapping}
 
@@ -148,7 +144,7 @@ Sales Qualifier只读取它发送的电子邮件回复，而不会读取收件�
 
 ## 配置活动同步（出站映射） {#configure-activity-sync-outbound-mapping}
 
-Activity Sync会将Sales Qualifier外联活动写入您的CRM和Marketo。 已发送、已打开、已单击和已回复的电子邮件活动包括参与计划名称。 代表可以在CRM中查看活动，而营销团队可以在潜在客户评分和参与时间线中使用Marketo活动。
+Activity Sync会将Sales Qualifier外联活动写入您的CRM和Marketo。 已发送、已打开、已单击和已回复的电子邮件活动包括出站工作流名称。 代表可以在CRM中查看活动，而营销团队可以在潜在客户评分和参与时间线中使用Marketo活动。
 
 1. 在连接的CRM信息卡上，选择&#x200B;**[!UICONTROL 管理]**。
 1. 打开&#x200B;**[!UICONTROL 出站映射]**&#x200B;选项卡。
@@ -160,20 +156,13 @@ Activity Sync会将Sales Qualifier外联活动写入您的CRM和Marketo。 已�
 >
 >活动同步需要CRM中的写入权限。 如果缺少所需的权限，则会禁用交换机，并且Sales Qualifier会提示您联系管理员。 要授予活动写入权限，请与您的CRM管理员合作。
 
-## 打开Marketo参与筛选 {#turn-on-marketo-engagement-filtering}
+## 设置营销亮点 {#turn-on-marketo-engagement-filtering}
 
-Marketo参与筛选功能允许代表根据其实时[!DNL Marketo]参与（如电子邮件打开数和点击数）查找潜在客户并确定其优先级。 请参阅[按Marketo参与度筛选](prospects.md#filter-by-marketo-engagement)。
+营销亮点使代表能够按实时[!DNL Marketo]参与度（如电子邮件打开数和点击数）查找潜在客户并确定其优先级。 请参阅[按Marketo参与度筛选](prospects.md#filter-by-marketo-engagement)。
 
-管理员将打开相关组织和沙盒的Marketo参与筛选。 启用后，营销人员在[!DNL Marketo]中完成一次性设置。
+管理员完成一次性设置，将[!DNL Marketo]连接到相关组织和沙盒的Sales Qualifier。 该设置包括在Adobe Developer Console中创建API凭据，在[!DNL Marketo]中配置webhook，以及将该webhook添加到触发器Smart Campaign。 有关完整步骤，请参阅[设置营销亮点](marketing-highlights-setup.md)。
 
-要将Smart Campaign的活动流入Sales Qualifier，请执行以下操作：
-
-1. 在[!DNL Marketo]中，打开要将其活动流入Sales Qualifier的智能营销活动。
-1. 将调用Webhook步骤添加到Smart Campaign流程。
-
-webhook步骤就绪后，该Smart Campaign中的活动会流入Sales Qualifier，并且代表可以按该步骤过滤其潜在客户。
-
-Marketo参与过滤功能在以下所有生产地区提供：北美、EMEA和澳大利亚。
+营销亮点适用于所有生产地区：北美、EMEA和澳大利亚。
 
 ## 配置全局电子邮件选择退出 {#configure-global-email-opt-out}
 

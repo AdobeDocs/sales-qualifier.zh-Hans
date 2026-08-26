@@ -4,16 +4,12 @@ description: 了解如何在Sales Qualifier中构建、筛选和审查潜在客�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: 550
 ht-degree: 2%
 
 ---
@@ -27,6 +23,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 潜在客户]** — 在连接的CRM中分配给您的潜在客户。
 * **[!UICONTROL 联系人]** — 在连接的CRM中分配给您的联系人。
+* **[!UICONTROL 营销亮点]** — 具有实时Marketo活动（如电子邮件打开次数或点击次数）的潜在客户。
 * **[!UICONTROL 人员列表]** — 您手动导入或添加的潜在客户。
 
 ## 构建潜在客户列表
@@ -40,6 +37,9 @@ ht-degree: 2%
 要添加不来自您的CRM的潜在客户，请执行以下操作：
 
 1. 在&#x200B;**[!UICONTROL 潜在客户]**&#x200B;页面上，选择&#x200B;**[!UICONTROL 人员列表]**。
+
+   ![人员列表](assets/prospects-people-list.png){width="800" zoomable="yes"}
+
 1. 选择&#x200B;**[!UICONTROL +添加人员]**，然后选择&#x200B;**[!UICONTROL 导入CSV]**&#x200B;或&#x200B;**[!UICONTROL 添加人员]**。
 
    * 对于CSV导入，请上传`firstname,email`格式的CSV。
@@ -52,7 +52,7 @@ ht-degree: 2%
 
 选择&#x200B;**[!UICONTROL 筛选器]**&#x200B;以缩小列表范围。 您可以按以下项过滤：
 
-* 参与计划状态
+* 出站工作流状态
 * 创建者
 * 作业名称
 * 帐户

@@ -4,13 +4,10 @@ description: 了解如何管理CRM字段、活动同步、电子邮件选择退�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 670
 ht-degree: 0%
@@ -70,7 +67,7 @@ Sales Qualifier从CRM中读取用户、联系人、所有者映射、潜在客�
 
 1. 从&#x200B;**[!UICONTROL CRM连接]**&#x200B;中，为连接的CRM选择&#x200B;**[!UICONTROL 管理]**。
 1. 打开&#x200B;**[!UICONTROL 出站映射]**。
-1. 打开&#x200B;**[!UICONTROL 活动同步]**&#x200B;以将Sales Qualifier外联活动同步到CRM和Marketo。 已发送、已打开、已单击和已回复的电子邮件活动包括参与计划名称。
+1. 打开&#x200B;**[!UICONTROL 活动同步]**&#x200B;以将Sales Qualifier外联活动同步到CRM和Marketo。 已发送、已打开、已单击和已回复的电子邮件活动包括出站工作流名称。
 
 关闭活动同步后，Sales Qualifier将继续使用入站CRM数据，但不会将外联活动与CRM或Marketo同步。
 
