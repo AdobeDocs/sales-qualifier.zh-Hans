@@ -42,7 +42,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 
 ::::landing-cards-container
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 快速入门
 
@@ -52,7 +52,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 潜在客户
 
@@ -62,7 +62,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 帐户
 
@@ -72,7 +72,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![图标](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 出站工作流
 
@@ -82,7 +82,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 任务
 
@@ -92,7 +92,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 性能
 
@@ -102,7 +102,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 知识中心
 
@@ -112,7 +112,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 集成
 
@@ -122,7 +122,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 轮廓设置
 
@@ -132,7 +132,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 用户角色和权限
 
@@ -142,7 +142,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 :::
 
 :::card
-![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 人工智能聊天
 
