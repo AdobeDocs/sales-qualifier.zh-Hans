@@ -10,7 +10,7 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 632
 ht-degree: 0%
@@ -57,7 +57,7 @@ Sales Qualifier从潜在客户的CRM记录中标识帐户。 每个与该帐户�
 
 使用概述下面的按钮可在帐户视图之间切换。 可用的视图取决于您的CRM和配置：
 
-| 查看 | 它显示的内容 |
+| 视图 | 它显示的内容 |
 | --- | --- |
 | **[!UICONTROL 商机]** | 打开链接到客户的销售机会，每个销售机会都有键字段。 选择&#x200B;**[!UICONTROL 查看全部]**&#x200B;以查看表中的完整列表。 当管理员使这些字段可过滤时，还可以使用Opportunity详细信息（如阶段、类型和结束日期）在&#x200B;**[!UICONTROL My Opportunity Contacts]**&#x200B;中过滤客户的联系人。 |
 | **[!UICONTROL 热门成员]** | 客户参与度最高的联系人，按参与度排名。 每个联系人会显示其职务、电子邮件地址、参与度得分和紧急程度指示器。 |
@@ -67,7 +67,7 @@ Sales Qualifier从潜在客户的CRM记录中标识帐户。 每个与该帐户�
 
 从&#x200B;**[!UICONTROL 顶级成员]**&#x200B;视图中，对联系人执行以下任一操作：
 
-* **[!UICONTROL 添加到参与计划]** — 在[参与计划](outbound-workflows.md)中注册联系人。
+* **[!UICONTROL 添加到出站工作流]** — 在[出站工作流](outbound-workflows.md)中注册联系人。
 * **[!UICONTROL 添加到Marketo营销活动]** — 触发联系人的[!DNL Marketo]营销活动。
 
 ## 研究帐户
@@ -86,7 +86,7 @@ Sales Qualifier从潜在客户的CRM记录中标识帐户。 每个与该帐户�
 
 * 参考最近的新闻项目或研究信号，使您的开场变得相关，而不是使用通用的推介。
 * 检查未结机会和管道值以确定是否划分帐户的优先级。
-* 使用&#x200B;**[!UICONTROL 顶级成员]**&#x200B;确定联系对象，然后将其注册到参与计划。
+* 使用&#x200B;**[!UICONTROL 顶级成员]**&#x200B;确定联系对象，然后将其注册到出站工作流。
 * 在呼叫之前询问[AI聊天](ai-assistant.md)以开发帐户的定位。
 
 >[!MORELIKETHIS]

@@ -12,7 +12,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 412
 ht-degree: 22%
@@ -29,7 +29,7 @@ BDR可以使用浏览器和电子邮件插件直接在其CRM或Outlook中访问�
 ## 在Sales Qualifier中可以做什么
 
 * **使用AI生成的活动摘要和基于信号的优先级来排定潜在客户和帐户的优先级**。
-* **构建目标驱动型参与计划**，其中AI为每个潜在客户建议节奏并草稿个性化电子邮件。
+* **构建目标驱动的出站工作流**，其中AI为每个潜在客户建议节奏并草稿个性化电子邮件。
 * **在一个队列中处理外联**&#x200B;以进行电话通话、LinkedIn InMails和电子邮件审核。
 * **通过连接您的日历并将个人预订链接插入您的节奏中，自动预订会议**。
 * **通过在知识中心构建行动手册，使用您自己的资料通知AI外展人员**。

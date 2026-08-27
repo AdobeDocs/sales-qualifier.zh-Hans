@@ -6,7 +6,7 @@ role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 321
 ht-degree: 0%
@@ -59,7 +59,7 @@ Sales Qualifier会为“不在办公室”回复和退回分配不同的状态�
 
 ## 营销活动效果
 
-**[!UICONTROL 促销活动效果]**&#x200B;按参与计划促销活动报告出站结果：
+**[!UICONTROL 营销活动效果]**&#x200B;报告出站工作流营销活动的出站结果：
 
 * **KPI磁贴**：活跃的潜在客户、打开率、点击率、回复率和已预订的会议。
 * **促销活动量度趋势图**：选定时间段内的促销活动KPI。
