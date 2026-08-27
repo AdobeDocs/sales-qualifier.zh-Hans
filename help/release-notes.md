@@ -18,7 +18,7 @@ ht-degree: 12%
 
 此版本包括：
 
-* 通过AI生成的活动摘要和基于信号的评分，确定潜在客户和客户的优先级。 [了解有关潜在客户或[帐户的更多信息](prospects.md#review-prospect-details)](accounts.md#account-insights)。
+* 通过AI生成的活动摘要和基于信号的评分，确定潜在客户和客户的优先级。 [&#128279;](accounts.md#account-insights)了解有关潜在客户或[帐户的更多信息](prospects.md#review-prospect-details)。
 * 目标驱动的出站工作流，具有AI建议的节奏和草拟的电子邮件。 [了解详情](outbound-workflows.md)。
 * 电话、LinkedIn InMails和电子邮件审阅的统一任务队列。 [了解详情](tasks.md)。
 * 通过日历集成自动预订会议。 [了解详情](outbound-workflows.md#meeting-booking)。
