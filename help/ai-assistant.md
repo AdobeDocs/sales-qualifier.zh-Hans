@@ -4,17 +4,13 @@ description: 了解如何使用Sales Qualifier中的AI Chat研究客户、草稿
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
-product_v2:
-  - id: d98caee2-fd67-486e-9513-36435358ebff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d98caee2-fd67-486e-9513-36435358ebff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 401
+source-wordcount: 404
 ht-degree: 1%
 
 ---
@@ -23,6 +19,8 @@ ht-degree: 1%
 # 人工智能聊天
 
 AI Chat会根据您的销售情况回答自然语言问题。 使用它来研究客户、准备电话、草稿外联，并在不离开Sales Qualifier的情况下优先考虑您的工作。
+
+![AI聊天按钮](assets/ai-chat.png){width="800" zoomable="yes"}
 
 ## 打开AI聊天
 
@@ -36,7 +34,7 @@ AI Chat会根据您的销售情况回答自然语言问题。 使用它来研究
 
 AI Chat可以使用以下源：
 
-* 您组织的[知识中心](knowledge-center.md)行动手册。
+* 您组织的[知识中心](admin-settings.md#knowledge-center)行动手册。
 * 您连接的CRM，包括潜在客户、联系人、客户、机会和活动。
 * [!DNL Marketo]活动和参与数据。
 * Account Qualification Agent收集的客户研究和最新消息。
@@ -54,7 +52,7 @@ AI Chat可以使用以下源：
 
 ## 在您的剧本中给出答案
 
-要使用您的[知识中心](knowledge-center.md)行动手册，请参阅您问题中的知识中心。 例如：
+要使用您的[知识中心](admin-settings.md#knowledge-center)行动手册，请参阅您问题中的知识中心。 例如：
 
 `From the Knowledge Center, help me position our security solution for ABC Corp ahead of tomorrow's call.`
 
@@ -76,6 +74,6 @@ AI生成的响应可能不准确。 在使用之前查看所有内容。
 
 >[!MORELIKETHIS]
 >
->* [知识中心](knowledge-center.md)
+>* [知识中心](admin-settings.md#knowledge-center)
 >* [帐户](accounts.md)
 >* [出站工作流](outbound-workflows.md)
