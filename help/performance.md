@@ -6,9 +6,9 @@ role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 321
+source-wordcount: 334
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 在左侧导航中，选择&#x200B;**[!UICONTROL 出站性能]**&#x200B;以跟踪团队中的出站活动和结果。 仪表板具有两个视图：**[!UICONTROL 组织业绩]**&#x200B;和&#x200B;**[!UICONTROL 促销活动业绩]**。
 
-[出站性能](assets/outbound-performance.png){width="800" zoomable="yes"}
+![出站性能](assets/outbound-performance.png){width="800" zoomable="yes"}
 
 ## 过滤器和时间段
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ### Overview 选项卡
 
-**[!UICONTROL 概述]**&#x200B;选项卡概述了出站结果：
+**[!UICONTROL 概述]**&#x200B;选项卡概述了出站结果。 单击任一框以显示包含该信息的图表。
 
 * **磁贴**：管道、电子邮件参与和手动活动，每一项都相对于上一期具有趋势变化。
 * **性能趋势图**：所选时间段的出站性能。

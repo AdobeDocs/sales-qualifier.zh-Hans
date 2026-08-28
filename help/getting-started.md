@@ -14,9 +14,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 1054
+source-wordcount: 1015
 ht-degree: 0%
 
 ---
@@ -30,7 +30,9 @@ Adobe为您的组织配置Sales Qualifier后，[!DNL Marketo]系统管理员必�
 
 ## 设置用户组
 
-Adobe Admin Console中的两个用户组可控制对Sales Qualifier的访问。 请在用户登录之前创建这两个组。
+Adobe Admin Console中的用户组可用于控制对Sales Qualifier的访问。 必须先创建这两个组，用户才能登录。
+
+有关设置群组的信息，请参阅[Adobe Admin Console文档](https://helpx.adobe.com/cn/business/enterprise/users/users-and-groups/user-groups.html)。
 
 >[!PREREQUISITES]
 >
@@ -43,6 +45,8 @@ Adobe Admin Console中的两个用户组可控制对Sales Qualifier的访问。 
 
 用户必须属于`Sales Qualifier`用户组才能访问该应用程序。
 
+这些步骤可在Adobe Admin Console中完成。
+
 1. 从九点式应用程序切换器中，选择&#x200B;**[!UICONTROL Admin Console]**。
 1. 选择&#x200B;**[!UICONTROL 用户]** > **[!UICONTROL 用户组]** > **[!UICONTROL 新用户组]**。
 1. 输入`Sales Qualifier`作为组名，然后选择&#x200B;**[!UICONTROL 保存]**。
@@ -53,18 +57,16 @@ Adobe Admin Console中的两个用户组可控制对Sales Qualifier的访问。 
 
 ### Sales Qualifier管理员
 
-配置CRM连接、[知识中心](knowledge-center.md)和全局电子邮件选择退出设置的管理员也必须属于`Sales Qualifier Admins`用户组。
+配置CRM连接、[知识中心](admin-settings.md#knowledge-center)和全局电子邮件选择退出设置的管理员也必须属于`Sales Qualifier Admins`用户组。
 
 1. 在Adobe Admin Console中，选择&#x200B;**[!UICONTROL 用户]** > **[!UICONTROL 用户组]** > **[!UICONTROL 新用户组]**。
 1. 输入`Sales Qualifier Admins`作为组名，然后选择&#x200B;**[!UICONTROL 保存]**。
 1. 打开&#x200B;**[!UICONTROL 用户]**，选择&#x200B;**[!UICONTROL 添加用户]**，然后添加管理员。
 1. 确认每个管理员也是`Sales Qualifier`组的成员。
 
-两个群组的成员身份使&#x200B;**[!UICONTROL 管理员设置]**&#x200B;在左侧导航栏的&#x200B;**[!UICONTROL 管理]**&#x200B;下可见。 标准用户使用管理员配置的字段、过滤器和剧本。 配置的选择退出页脚自动应用于其出站电子邮件。 标准用户无法更改这些设置。 有关详细信息，请参阅[用户角色和权限](user-roles-permissions.md)。
+两个群组的成员身份使&#x200B;**[!UICONTROL 管理员设置]**&#x200B;在左侧导航栏的&#x200B;**[!UICONTROL 管理]**&#x200B;下可见。 标准用户使用管理员配置的字段、过滤器和剧本。 配置的选择退出页脚自动应用于其出站电子邮件。 标准用户无法更改这些设置。
 
->[!NOTE]
->
->用户组名必须与上一步骤中所示完全匹配。
+用户组名必须与上一步骤中所示完全匹配。
 
 您还可以创建可选的`Sales Qualifier BDR managers`组。 此组的成员可以访问电子邮件性能报表。
 
@@ -116,9 +118,7 @@ Salesforce系统管理员创建外部客户端应用程序（也称为连接的�
    * 回调 URL
    * Salesforce实例URL
 
->[!IMPORTANT]
->
->不要通过电子邮件发送客户端密钥。 使用您组织批准的安全渠道与在Sales Qualifier中进入凭据的人共享凭据。
+步骤可能与此处所述略有不同。 有关详细信息，请参阅[Salesforce文档](https://help.salesforce.com/s/)。
 
 ### 查找您的Salesforce实例URL
 
@@ -154,9 +154,9 @@ Microsoft Dynamics 365或Azure管理员可注册应用程序并将其添加到Dy
 1. 在左侧导航中，展开&#x200B;**[!UICONTROL 管理]**，然后选择&#x200B;**[!UICONTROL 管理设置]**。
 1. 选择&#x200B;**[!UICONTROL 集成]**&#x200B;下的&#x200B;**[!UICONTROL CRM连接]**。
 
-   早期版本的界面可能会在&#x200B;**[!UICONTROL 管理]**&#x200B;下将此区域显示为&#x200B;**[!UICONTROL 集成]**。
-
    页面会显示Salesforce和Microsoft Dynamics的信息卡。 非活动连接显示&#x200B;**[!UICONTROL 连接]**。 已配置的连接显示&#x200B;**[!UICONTROL 已连接]**&#x200B;和&#x200B;**[!UICONTROL 管理]**。
+
+   ![Salesforce凭据](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
 
 1. 为您使用的CRM选择&#x200B;**[!UICONTROL 连接]**。
 1. 输入CRM管理员提供的凭据和实例URL。
@@ -164,18 +164,9 @@ Microsoft Dynamics 365或Azure管理员可注册应用程序并将其添加到Dy
 
 ### 导入CRM字段
 
-连接CRM后，配置入站映射以选择在Sales Qualifier中显示的CRM字段。
+连接CRM后，配置入站映射以确定哪些CRM字段显示在Sales Qualifier中。 在连接的CRM信息卡上，选择&#x200B;**[!UICONTROL 管理]**&#x200B;以打开&#x200B;**[!UICONTROL 入站映射]**，然后为要导入其字段的每个实体类型添加一个节。
 
-1. 在连接的CRM信息卡上，选择&#x200B;**[!UICONTROL 管理]**&#x200B;以打开&#x200B;**[!UICONTROL 入站映射]**。
-1. 选择&#x200B;**[!UICONTROL 添加节]**。
-1. 输入节名称和说明。
-1. 选择实体类型。 默认情况下已选择&#x200B;**[!UICONTROL 潜在客户]**。 **[!UICONTROL 联系人]**、**[!UICONTROL 帐户]**&#x200B;和&#x200B;**[!UICONTROL 机会]**&#x200B;也可用。
-1. 选择要导入的CRM字段。
-1. 预览该部分并选择&#x200B;**[!UICONTROL 添加]**。
-
-目标客户字段显示在&#x200B;**[!UICONTROL 人员]**&#x200B;标签页中，帐户字段显示在&#x200B;**[!UICONTROL 帐户]**&#x200B;标签页中，机会字段显示在&#x200B;**[!UICONTROL 帐户机会]**&#x200B;部分中。 为代表需要作为筛选器的每个映射字段启用&#x200B;**[!UICONTROL 可筛选]**。
-
-请参阅[集成](integrations.md#map-crm-fields-inbound-mapping)以管理字段映射和同步。
+请参阅[映射CRM字段（入站映射）](integrations.md#map-crm-fields-inbound-mapping)以了解完整的步骤，包括如何使导入的字段可用作筛选条件。
 
 ## 后续步骤
 
@@ -183,4 +174,3 @@ Microsoft Dynamics 365或Azure管理员可注册应用程序并将其添加到Dy
 >
 >* [潜在客户](prospects.md)
 >* [出站工作流](outbound-workflows.md)
->* [用户角色和权限](user-roles-permissions.md)

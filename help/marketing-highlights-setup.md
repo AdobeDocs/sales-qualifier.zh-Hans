@@ -12,9 +12,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 675
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 # 设置营销亮点
 
-营销亮点在Sales Qualifier中潜在客户的&#x200B;**[!UICONTROL 营销亮点]**&#x200B;选项卡上显示每个潜在客户的实时[!DNL Marketo]活动，例如电子邮件打开次数和点击次数、Web访问次数和表单填写次数。 本文说明如何连接[!DNL Marketo]实例，以便活动流入中。
+营销亮点显示每个潜在客户的实时[!DNL Marketo]活动，如电子邮件打开数和点击数、Web访问数和表单填写数。 本文说明如何连接[!DNL Marketo]实例，以便活动流入中。
 
 >[!IMPORTANT]
 >

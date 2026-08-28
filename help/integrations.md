@@ -12,9 +12,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 1379
+source-wordcount: 1377
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Outlook连接为每个代表。 本文稍后介绍的CRM和合规性设置适用于整个组织。 要访问这些组织范围的设置，您必须属于`Sales Qualifier`和`Sales Qualifier Admins`用户组。 标准用户可以使用配置的CRM数据和过滤器，但无法更改设置。 查看[用户角色和权限](user-roles-permissions.md)。
+>Outlook连接为每个代表。 本文稍后介绍的CRM和合规性设置适用于整个组织。 要访问这些组织范围的设置，您必须属于`Sales Qualifier`和`Sales Qualifier Admins`用户组。 标准用户可以使用配置的CRM数据和过滤器，但无法更改设置。
 
 ## 连接Outlook
 
@@ -67,7 +67,7 @@ Sales Qualifier只读取它发送的电子邮件回复，而不会读取收件�
 | **[!UICONTROL 集成]** | **[!UICONTROL CRM连接]**，**[!UICONTROL 知识中心]** |
 | **[!UICONTROL 合规性]** | **[!UICONTROL 电子邮件设置]** |
 
-有关知识中心，请参阅[知识中心](knowledge-center.md)。
+有关知识中心，请参阅[构建知识中心行动手册](admin-settings.md#knowledge-center)。
 
 ## 管理CRM连接
 
@@ -96,7 +96,7 @@ Sales Qualifier只读取它发送的电子邮件回复，而不会读取收件�
 
    输入&#x200B;**[!UICONTROL 客户端ID（使用者密钥）]**、**[!UICONTROL 实例URL]**&#x200B;和&#x200B;**[!UICONTROL 客户端密钥]**。 使用规范实例URL表单`https://{{mydomain}}.my.salesforce.com`。
 
-   ![Salesforce连接](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+   ![Salesforce凭据](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
 
    >[!TAB Microsoft Dynamics]
 
@@ -125,8 +125,13 @@ Sales Qualifier只读取它发送的电子邮件回复，而不会读取收件�
 
 入站映射可控制Sales Qualifier导入哪些CRM字段以及这些字段出现的位置。 字段将分组为多个部分，每个部分都属于一种实体类型。
 
+![入站映射](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+
 1. 在连接的CRM信息卡上，选择&#x200B;**[!UICONTROL 管理]**。
 1. 在&#x200B;**[!UICONTROL 入站映射]**&#x200B;选项卡上，选择&#x200B;**[!UICONTROL 添加节]**。
+
+   ![添加分区](assets/crm-add-section.png){width="800" zoomable="yes"}
+
 1. 在&#x200B;**选择节**&#x200B;步骤中，选择实体类型，然后选择&#x200B;**[!UICONTROL 下一步]**：
 
    | 实体 | 显示其字段的位置 |
@@ -197,5 +202,4 @@ Sales Qualifier读取它需要的CRM实体，并只回写定义的数据集：
 >[!MORELIKETHIS]
 >
 >* [入门](getting-started.md)
->* [用户角色和权限](user-roles-permissions.md)
 >* [帐户](accounts.md)

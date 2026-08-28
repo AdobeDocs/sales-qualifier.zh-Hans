@@ -10,9 +10,9 @@ feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 670
+source-wordcount: 856
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Sales Qualifier可连接到Salesforce或Microsoft Dynamics 365。 该连接使Ac
 
 >[!IMPORTANT]
 >
->访问&#x200B;**[!UICONTROL 管理员设置]**&#x200B;需要`Sales Qualifier`和`Sales Qualifier Admins`用户组的成员资格。 查看[用户角色和权限](user-roles-permissions.md)。
+>访问&#x200B;**[!UICONTROL 管理员设置]**&#x200B;需要`Sales Qualifier`和`Sales Qualifier Admins`用户组的成员资格。
 
 ## CRM MCP和嵌入式插件
 
@@ -74,6 +74,31 @@ Sales Qualifier从CRM中读取用户、联系人、所有者映射、潜在客�
 
 关闭活动同步后，Sales Qualifier将继续使用入站CRM数据，但不会将外联活动与CRM或Marketo同步。
 
+## 构建知识中心行动手册 {#knowledge-center}
+
+**[!UICONTROL 知识中心]**&#x200B;允许Account Qualification Agent (AQA)访问您的销售资料。 Sales Qualifier使用这些资料来生成研究、资格鉴定见解和推广活动，以反映贵组织的销售方式。 只有管理员才能构建和管理行动手册。
+
+![知识中心](assets/knowledge-center.png){width="800" zoomable="yes"}
+
+1. 在左侧导航中，展开&#x200B;**[!UICONTROL 管理]**，选择&#x200B;**[!UICONTROL 管理员设置]**，然后选择&#x200B;**[!UICONTROL 知识中心]**
+1. u
+1. 设置Sales Qualifier用于调查您的公司和草稿电子邮件的&#x200B;**[!UICONTROL 公司名称]**&#x200B;和&#x200B;**[!UICONTROL 公司URL]**。
+1. 以PDF、PPTX或DOCX格式上传销售重头戏、理想客户档案(ICP)、定位指南和其他销售宣传资料。
+1. 选择&#x200B;**[!UICONTROL 生成行动手册]**。
+
+每个上载的文档都显示其处理状态（如&#x200B;**[!UICONTROL 就绪]**）以及上次更新的时间。
+
+>[!NOTE]
+>
+>处理行动手册最多需要24小时。
+
+当剧本准备就绪时，代表可以在两个地方使用它：
+
+* **出站电子邮件提示** — 在接触点提示中，命名文档并描述要使用的上下文。 例如，输入`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`。 查看[生成和查看接触点](outbound-workflows.md#step-3-generate-and-review-touchpoints)。
+* **AI聊天**：请参阅您问题中的知识中心。 例如，输入`From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`。 查看[人工智能聊天](ai-assistant.md)。
+
+在这两种情况下，生成的内容都反映了行动手册中的消息传递，而不是通用研究。
+
 ## 配置全局电子邮件选择退出
 
 1. 在左侧导航中，展开&#x200B;**[!UICONTROL 管理]**，然后选择&#x200B;**[!UICONTROL 管理设置]**。
@@ -113,5 +138,4 @@ ORDER BY LastModifiedDate DESC
 >[!MORELIKETHIS]
 >
 >* [入门](getting-started.md)
->* [用户角色和权限](user-roles-permissions.md)
 >* [潜在客户](prospects.md)

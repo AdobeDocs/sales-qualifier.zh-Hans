@@ -13,7 +13,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
 source-wordcount: 1923
 ht-degree: 0%
@@ -105,7 +105,7 @@ AI会根据您的指令重写整个节奏。 要调整一个电子邮件接触�
 
 #### 在提示中使用知识中心
 
-如果贵组织已构建了[知识中心](knowledge-center.md)行动手册，请在提示中参阅该行动手册。 命名文档并描述要使用的上下文。 例如，输入`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`。
+如果贵组织已构建了[知识中心](admin-settings.md#knowledge-center)行动手册，请在提示中参阅该行动手册。 命名文档并描述要使用的上下文。 例如，输入`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`。
 
 当节奏和提示就绪时，选择&#x200B;**[!UICONTROL 下一步：设置]**。
 
@@ -245,5 +245,5 @@ AI会为每个选定的潜在客户生成个性化电子邮件，并发送电子
 >[!MORELIKETHIS]
 >
 >* [任务](tasks.md)
->* [知识中心](knowledge-center.md)
+>* [知识中心](admin-settings.md#knowledge-center)
 >* [出站性能](performance.md)

@@ -10,9 +10,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 632
+source-wordcount: 643
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 0%
 
 1. 在左侧导航中选择&#x200B;**[!UICONTROL 潜在客户]**&#x200B;并打开一个潜在客户。 查看[潜在客户](prospects.md)。
 1. 在目标客户详细信息页面上，选择&#x200B;**[!UICONTROL 帐户]**&#x200B;选项卡。
+
+![包含“人员”和“帐户”选项卡的“目标客户”详细信息页面](./assets/account-home.png){width="800" zoomable="yes"}
 
 Sales Qualifier从潜在客户的CRM记录中标识帐户。 每个与该帐户关联的目标客户都可以使用相同的帐户视图。 如果Sales Qualifier无法匹配帐户，则选项卡显示&#x200B;_未找到帐户_。
 
@@ -77,6 +79,8 @@ Sales Qualifier从潜在客户的CRM记录中标识帐户。 每个与该帐户�
 * **[!UICONTROL 研究类别]** — 研究主题。 选择一个类别，以在中心窗格中查看其研究。
 * **研究内容** — 按类别分组的AI生成的研究卡。 卡片可包含源域以及首次和上次检测到信号的日期。
 * **[!UICONTROL 最新新闻]** — 有关帐户的最新新闻，包括日期、标记和源链接。
+
+![帐户研究选项卡](./assets/account-detail.png){width="800" zoomable="yes"}
 
 如果无法加载研究或新闻，则每个区域都提供&#x200B;**[!UICONTROL 重新加载]**&#x200B;操作以重试。
 
