@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
 workflow-type: tm+mt
-source-wordcount: 900
+source-wordcount: 904
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 使用&#x200B;**[!UICONTROL 任务]**&#x200B;完成出站工作流生成的操作。 选择任务，执行操作，将任务标记为“完成”，然后在不离开页面的情况下继续执行下一个任务。
 
 在左侧导航中，转到&#x200B;**[!UICONTROL 活动]** > **[!UICONTROL 任务]**。
+
+![任务面板](assets/tasks.png)
 
 ## 任务视图
 
@@ -43,6 +45,8 @@ ht-degree: 0%
 * **[!UICONTROL LinkedIn InMail]** — 在节奏到达LinkedIn InMail步骤时创建。 工作面板显示要从LinkedIn复制和发送的内容。 展开&#x200B;**[!UICONTROL AI理由]**&#x200B;以查看理由。
 
 * **[!UICONTROL 电子邮件审核]** — 在Sales Qualifier生成潜在客户的个性化电子邮件之后创建。 选择&#x200B;**[!UICONTROL 审阅电子邮件]**&#x200B;以在开始外展之前审阅和批准草稿。 查看[查看和优化生成的电子邮件](outbound-workflows.md#review-and-refine-generated-emails)。
+
+![电子邮件审核](assets/tasks-review.png)
 
 ### 工作面板
 
