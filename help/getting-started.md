@@ -4,17 +4,10 @@ description: 了解如何在您的团队开始使用应用程序之前完成Sale
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4cd91e6f39b7ba30d5650fad1304c74a6d6c91f0
 workflow-type: tm+mt
 source-wordcount: 1015
 ht-degree: 0%
@@ -26,13 +19,13 @@ ht-degree: 0%
 
 Adobe为您的组织配置Sales Qualifier后，[!DNL Marketo]系统管理员必须创建所需的用户组并连接Salesforce或Microsoft Dynamics 365。
 
-[Sales Qualifier主页](assets/homepage.png){width="800" zoomable="yes"}
+![Sales Qualifier主页](assets/homepage.png){width="800" zoomable="yes"}
 
 ## 设置用户组
 
 Adobe Admin Console中的用户组可用于控制对Sales Qualifier的访问。 必须先创建这两个组，用户才能登录。
 
-有关设置群组的信息，请参阅[Adobe Admin Console文档](https://helpx.adobe.com/cn/business/enterprise/users/users-and-groups/user-groups.html)。
+有关设置群组的信息，请参阅[Adobe Admin Console文档](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html)。
 
 >[!PREREQUISITES]
 >
