@@ -4,17 +4,13 @@ description: 了解如何使用Sales Qualifier中的AI Chat研究客户、草稿
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
-product_v2:
-  - id: d98caee2-fd67-486e-9513-36435358ebff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+product_v2: id: d98caee2-fd67-486e-9513-36435358ebff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
 workflow-type: tm+mt
-source-wordcount: 404
+source-wordcount: 725
 ht-degree: 1%
 
 ---
@@ -46,13 +42,66 @@ AI Chat可以使用以下源：
 
 ## 使用人工智能聊天
 
-使用AI Chat执行以下任务：
+使用AI Chat处理以下类型的任务：
 
 * **研究和摘要**：要求帐户、购买团体或潜在客户最近预订的摘要。
 * **内部版本定位**：在会议之前，要求助理为特定帐户定位您的解决方案。
 * **草稿并优化外联**：要求它编写或重写电子邮件。 指定语调、长度、语言以及是否包含表情符号。
 * **获取推荐**：询问哪些潜在客户或帐户要排定优先级，或请求新出站工作流的目标或节奏。
 * **查找联系人详细信息**：要求助理使用更多联系人和背景信息丰富潜在客户。
+
+## 在连接的数据中询问AI聊天
+
+AI Chat可以回答有关您的Sales Qualifier、CRM、[!DNL Marketo]、[!DNL Adobe Journey Optimizer B2B Edition]和公司情报数据的问题。 用简单的语言提出问题以查找信息或拉取上下文。 AI Chat读取和报告您的数据；它不会创建、编辑或启动任何内容。
+
+以下是一些示例提示。 您在提示中显示的内容越具体，结果就越集中。
+
+潜在客户和客户：
+
+* “查找参与状态为新的潜在客户。”
+* “研究Adobe。”
+* “给我一个潜在客户的完整侧写。”
+* “显示过去30天的出站性能。”
+* “列出过去30天预约的会议。”
+
+知识中心：
+
+* “在处理定价异议时，我们有什么抵押品？”
+* “我们与竞争对手的主要区别是什么？”
+* “在知识中心列出文档。”
+* “总结一份文档。”
+
+CRM：
+
+* “列出开放的机会。”
+* “列出前五个销售机会，并附上姓名和电子邮件。”
+* “显示潜在客户或客户的销售活动。”
+
+[!DNL Marketo]:
+
+* “浏览我的智能营销活动。”
+* “获取名为‘已获得’的智能列表。”
+* “浏览我的程序，或按名称获取程序。”
+* “列出[!DNL Marketo]活动类型。”
+
+[!DNL Adobe Journey Optimizer B2B Edition]:
+
+* “我有多少次历程？”
+* “我的受众如何按角色细分？”
+* “我的帐户中存在哪些登陆页面？”
+* “哪些潜在客户领域有助于评分？”
+
+公司情报：
+
+* “一家公司使用哪些技术？”
+* “显示公司的最新消息。”
+* “寻找与给定公司类似的公司。”
+* “列出公司空缺职位。”
+
+### 当前范围和限制
+
+* AI Chat读取和报告您的数据。 它不会创建、编辑或启动任何内容。 例如，它不会创建项目、启动营销策划或编辑列表。
+* AI Chat查找信息；它不是报告工具。 它不会生成[!DNL Marketo]类型的分析或随时间变化的趋势，例如季度的电子邮件运行状况或最近10天创建的潜在客户列表。 对这些任务使用本机[!DNL Marketo]报表。
 
 ## 在您的剧本中给出答案
 

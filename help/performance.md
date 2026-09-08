@@ -4,11 +4,10 @@ description: 了解如何在Sales Qualifier中查看组织绩效和营销活动�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 334
+source-wordcount: 401
 ht-degree: 0%
 
 ---
@@ -33,17 +32,18 @@ ht-degree: 0%
 
 ### Overview 选项卡
 
-**[!UICONTROL 概述]**&#x200B;选项卡概述了出站结果。 单击任一框以显示包含该信息的图表。
+**[!UICONTROL 概述]**&#x200B;选项卡汇总了出站结果。 单击任一框以显示包含该信息的图表。
 
 * **磁贴**：管道、电子邮件参与和手动活动，每一项都相对于上一期具有趋势变化。
 * **性能趋势图**：所选时间段的出站性能。
-* **[!UICONTROL 团队活动]**&#x200B;表：按代表划分的活动。
+* **[!UICONTROL 团队活动]**&#x200B;表：按代表分类的活动。
+* **潜在客户总数**：潜在客户的总数，而非仅有效潜在客户的总数，因此出站总数量不会被少报。
 
 ### “电子邮件”选项卡
 
 **[!UICONTROL 电子邮件]**&#x200B;选项卡报告电子邮件数量和有效性：
 
-* **磁贴**：已发送、打开、点击和回复的电子邮件。
+* **磁贴**：默认情况下显示打开率和点击率，以便在不同数量的营销活动之间比较性能。 选择切换可查看已发送、已打开、已点击和已回复的电子邮件原始计数。
 * **每周电子邮件趋势图**：按周显示电子邮件活动。
 * 代表性电子邮件性能表。
 
@@ -61,9 +61,9 @@ Sales Qualifier会为“不在办公室”回复和退回分配不同的状态�
 
 **[!UICONTROL 营销活动效果]**&#x200B;报告出站工作流营销活动的出站结果：
 
-* **KPI磁贴**：活跃的潜在客户、打开率、点击率、回复率和已预订的会议。
+* **KPI磁贴**：活跃的潜在客户、打开率、点击率、回复率和已预订的会议。 默认情况下，系统会显示打开率和点击率，这样在不同数量的营销活动中的效果可以相互比较。 选择切换可改为查看原始计数。
 * **促销活动量度趋势图**：选定时间段内的促销活动KPI。
-* **[!UICONTROL 营销活动]**&#x200B;表：每个营销活动的电子邮件、会议、呼叫和LinkedIn消息活动。 展开营销活动行可查看该营销活动的代表级别详细信息。
+* **[!UICONTROL 营销活动]**&#x200B;表：每个营销活动的电子邮件、会议、呼叫和LinkedIn消息活动。 要查看营销活动的代表级别详细信息，请展开其行。
 
 请参阅[会议预订](outbound-workflows.md#meeting-booking)，了解预订的生成方式。
 
