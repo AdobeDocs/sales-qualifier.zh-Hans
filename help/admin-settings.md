@@ -10,9 +10,9 @@ feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: 1089
 ht-degree: 0%
 
 ---
@@ -73,6 +73,34 @@ Sales Qualifier从CRM中读取用户、联系人、所有者映射、潜在客�
 1. 打开&#x200B;**[!UICONTROL 活动同步]**&#x200B;以将Sales Qualifier外联活动同步回CRM和Marketo。
 
 关闭活动同步后，Sales Qualifier将继续使用入站CRM数据，但不会将外联活动与CRM或Marketo同步。
+
+## 配置CRM同步规则
+
+当潜在客户在出站工作流中移动时，Sales Qualifier可以将潜在客户状态更新自动写回Salesforce和Microsoft Dynamics，以便代表不再手动更新CRM。
+
+### CRM同步规则的用途
+
+更新可以针对&#x200B;**[!UICONTROL 潜在客户]**、**[!UICONTROL 联系人]**、**[!UICONTROL 帐户]**&#x200B;或&#x200B;**[!UICONTROL 机会]**&#x200B;记录，而不仅仅是潜在客户。
+
+更新将在以下出站工作流时刻触发：
+
+* 已添加到工作流、已回复或已预订的会议
+* 由代表删除，或工作流已完成，无回复
+* 已选择退出或电子邮件已退回
+
+字段值可以使用动态令牌进行个性化，以便CRM更新反映潜在客户的实际历程而不是静态值。 令牌可用于了解代表姓名、出站工作流名称以及会议日期和时间等详细信息。
+
+只写入与CRM兼容的值，一个失败字段不会阻止其他字段，并且临时问题会自动重试。 每次更新都会进行跟踪，以便您能够查看已同步的内容以及需要注意的内容。
+
+### 设置CRM同步规则
+
+要设置CRM同步规则，请执行以下操作：
+
+1. 在左侧导航中，展开&#x200B;**[!UICONTROL 管理]**，然后选择&#x200B;**[!UICONTROL 管理员设置]** > **[!UICONTROL CRM连接]**。
+1. 为连接的CRM选择&#x200B;**[!UICONTROL 管理]**，然后选择&#x200B;**[!UICONTROL 同步规则]**。
+1. 选择目标CRM实体和字段，将其映射到上面的工作流时刻，然后打开切换开关。
+
+通过配置CRM同步规则，销售团队可以在每个阶段查看潜在客户、联系人、客户和商机中准确、个性化的最新状态，同时减少数据滞后和手动工作。
 
 ## 构建知识中心行动手册 {#knowledge-center}
 

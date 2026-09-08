@@ -11,10 +11,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
 workflow-type: tm+mt
-source-wordcount: 549
-ht-degree: 2%
+source-wordcount: 698
+ht-degree: 1%
 
 ---
 
@@ -48,6 +48,7 @@ ht-degree: 2%
 
    * 对于CSV导入，请上传`firstname,email`格式的CSV。
      名字和电子邮件为必填项。 姓氏是可选的。 CSV模板不包括CRM商机ID列，但您可以在导入之前将该列及其值添加到文件中。 如果导入失败，请查看错误消息以了解要更正的字段或值，然后再次上传文件。
+     映射任何自定义或附加CSV字段，而不仅仅是标准字段。 Sales Qualifier会将这些值保存到每个潜在客户中，并在以后提供这些值，包括生成[电子邮件](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)。
    * 要手动添加人员，请在表单中输入其详细信息。
 
 1. 选择&#x200B;**[!UICONTROL 保存]**。
@@ -88,6 +89,13 @@ ht-degree: 2%
 * **活动列表** — 按时间顺序排列的活动和最近行为的列表。
 * **时间线视图** — 跨渠道参与的可视时间线。
 * **已查看内容** — 潜在客户查看的网页和资产。 选择项目以将其打开。
+
+### 生成会议准备
+
+除了现用AI人员摘要之外，您还可以从&#x200B;**[!UICONTROL 会议研究]**&#x200B;选项卡（**[!UICONTROL 帐户研究]**&#x200B;旁边）生成针对特定即将到来的呼叫定制的会议准备。
+
+* **基于目标** — 如果潜在客户注册了正在运行的出站工作流，请选择它。 准备工作将与该叫客工作流的目标保持一致，如预订会议、产品推介、活动邀请或重新吸引潜在客户。
+* **自定义提示** — 输入您要准备的内容，例如`Focus on renewal risk`或`Prepare for a technical deep dive with their IT lead`。 准备与您的提示相匹配。 当目标客户不在正在运行的出站工作流中时，自定义提示选项可用。
 
 >[!MORELIKETHIS]
 >

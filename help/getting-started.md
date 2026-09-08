@@ -14,9 +14,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4cd91e6f39b7ba30d5650fad1304c74a6d6c91f0
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: 1017
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Adobe Admin Console中的用户组可用于控制对Sales Qualifier的访问。 
 
 这些步骤可在Adobe Admin Console中完成。
 
-1. 从九点式应用程序切换器中，选择&#x200B;**[!UICONTROL Admin Console]**。
+1. 从应用程序切换器中，选择&#x200B;**[!UICONTROL Admin Console]**。
 1. 选择&#x200B;**[!UICONTROL 用户]** > **[!UICONTROL 用户组]** > **[!UICONTROL 新用户组]**。
 1. 输入`Sales Qualifier`作为组名，然后选择&#x200B;**[!UICONTROL 保存]**。
 1. 打开&#x200B;**[!UICONTROL 已分配的产品配置文件]**&#x200B;并选择&#x200B;**[!UICONTROL 分配配置文件]**。
@@ -72,7 +72,7 @@ Adobe Admin Console中的用户组可用于控制对Sales Qualifier的访问。 
 
 ## 连接您的CRM
 
-Sales Qualifier可连接到Salesforce或Microsoft Dynamics 365，从而为BDR提供用户、潜在客户、联系人、客户、机会、所有者映射和相关活动的统一视图。 初始连接需要此CRM数据的只读访问权限。 在连接Sales Qualifier之前，请与CRM管理员合作准备凭据。 有关集成详细信息，请参阅[集成](integrations.md)。
+Sales Qualifier可连接到Salesforce或Microsoft Dynamics 365，从而为BDR提供用户、潜在客户、联系人、客户、机会、所有者映射和相关活动的统一视图。 初始连接需要此CRM数据的只读访问权限。 要在连接Sales Qualifier之前准备凭据，请与您的CRM管理员联系。 有关集成详细信息，请参阅[集成](integrations.md)。
 
 >[!PREREQUISITES]
 >
@@ -93,7 +93,7 @@ Salesforce系统管理员创建外部客户端应用程序（也称为连接的�
 >* 修改所有数据
 >* 管理连接的应用程序
 >
->如果没有&#x200B;_管理连接的应用程序_，管理员将无法查看客户端ID和客户端密钥。
+>管理员需要&#x200B;_管理连接的应用程序_&#x200B;才能查看客户端ID和客户端密钥。
 
 1. 在Salesforce中，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序管理器]**&#x200B;并选择&#x200B;**[!UICONTROL 新连接的应用程序]**&#x200B;或&#x200B;**[!UICONTROL 新外部客户端应用程序]**。
 1. 输入应用程序名称和管理联系人电子邮件。
@@ -118,7 +118,7 @@ Salesforce系统管理员创建外部客户端应用程序（也称为连接的�
    * 回调 URL
    * Salesforce实例URL
 
-步骤可能与此处所述略有不同。 有关详细信息，请参阅[Salesforce文档](https://help.salesforce.com/s/)。
+步骤与此处描述的步骤略有不同。 有关详细信息，请参阅[Salesforce文档](https://help.salesforce.com/s/?language=en_US)。
 
 ### 查找您的Salesforce实例URL
 
@@ -142,7 +142,7 @@ Microsoft Dynamics 365或Azure管理员可注册应用程序并将其添加到Dy
 1. 选择已注册的Microsoft Entra应用程序。
 1. 分配一个授予对销售线索、联系人、帐户、业务机会和活动的读取权限的安全角色。
 
-   需要安全角色。 如果没有这些变量，应用程序将无法访问Dynamics数据。
+   需要安全角色。 应用程序需要安全角色才能访问Dynamics数据。
 
 1. 收集客户端ID、客户端密钥、租户ID和Dynamics实例URL。 使用规范URL表单`https://{{mydomain}}.crm.dynamics.com`。
 
