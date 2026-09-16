@@ -1,25 +1,29 @@
 ---
 title: 创建和管理出站工作流
-description: 了解如何在Sales Qualifier中创建、共享、查看和管理人工智能生成的出站工作流，以运行目标驱动的外联频率。
+description: 了解如何在Adobe Marketo Qualifier中创建、共享、审查和管理人工智能生成的出站工作流，以运行目标驱动的外联频率。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/n3FbuiM2zF9QSqaKx1bhBSdbsf-w7vEsEGjCQTBo3g4'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 2062
+source-wordcount: '2064'
 ht-degree: 0%
-
 ---
-
 
 # 出站工作流
 
@@ -155,7 +159,7 @@ AI会为每个选定的潜在客户生成个性化电子邮件，并发送电子
 
 ## 查看和优化生成的电子邮件
 
-生成完成后，“出站工作流”详细信息视图将提示您查看草稿。 在您批准之前，Sales Qualifier不会发送电子邮件。
+生成完成后，“出站工作流”详细信息视图将提示您查看草稿。 在您批准之前，Adobe Marketo限定符不会发送电子邮件。
 
 1. 在“出站工作流”详细信息视图中，选择横幅中的&#x200B;**[!UICONTROL 审核草稿]**。
 1. **[!UICONTROL 查看接触点]**&#x200B;步骤有两个选项卡：
@@ -234,10 +238,10 @@ AI会为每个选定的潜在客户生成个性化电子邮件，并发送电子
 
 ## 会议预订
 
-在连接日历时，Sales Qualifier会生成一个个人预订链接，潜在客户可以使用该链接来安排与您在一起的时间。
+在连接日历时，Marketo Qualifier会生成一个个人预订链接，潜在客户可以使用该链接来安排与您之间的时间。
 
 * **预订链接** — 在[配置文件设置](profile-settings.md)中配置日历连接和可用性。 将预订链接添加到您的电子邮件签名，使其显示在出站电子邮件中。
-* **节奏位置** — Sales Qualifier在相关点以节奏插入您的预订链接。 您可以更改其放置。
+* **节奏位置**—Marketo限定符在相关点以节奏插入您的预订链接。 您可以更改其放置。
 * **Booking暂停** — 当潜在客户预订会议时，**[!UICONTROL Meeting Booking暂停]**&#x200B;停止后续跟进。 请参阅[步骤4：配置出站工作流设置](#step-4-configure-outbound-workflow-settings)。
 
 在[出站性能](performance.md)页面上跟踪预订结果。

@@ -1,20 +1,20 @@
 ---
-title: Sales Qualifier中的出站性能
-description: 了解如何在Sales Qualifier中查看组织绩效和营销活动绩效报表，以跟踪出站活动和结果。
+title: Adobe Marketo限定符中的出站性能
+description: 了解如何在Adobe Marketo Qualifier中查看组织绩效和营销活动绩效报表，以跟踪出站活动和结果。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
+    internal-label: CX Enterprise
+Outbound Workflows    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 401
+source-wordcount: '404'
 ht-degree: 0%
-
 ---
 
-
-# Sales Qualifier中的出站性能
+# Adobe Marketo限定符中的出站性能
 
 在左侧导航中，选择&#x200B;**[!UICONTROL 出站性能]**&#x200B;以跟踪团队中的出站活动和结果。 仪表板具有两个视图：**[!UICONTROL 组织业绩]**&#x200B;和&#x200B;**[!UICONTROL 促销活动业绩]**。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 * **每周电子邮件趋势图**：按周显示电子邮件活动。
 * 代表性电子邮件性能表。
 
-Sales Qualifier会为“不在办公室”回复和退回分配不同的状态，以便您能够将它们与“潜在客户参与”区分开来。
+Marketo Qualifier会为“不在办公室”回复和退回分配不同的状态，以便您能够将它们与潜在客户参与区分开来。
 
 ### “任务”选项卡
 

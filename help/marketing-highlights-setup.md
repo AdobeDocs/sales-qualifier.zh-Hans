@@ -1,24 +1,28 @@
 ---
 title: 设置营销亮点
-description: 了解如何将Marketo连接到Sales Qualifier，以便代表可以在“营销亮点”中按Marketo的实时活动查看和筛选潜在客户。
+description: 了解如何将Marketo连接到Adobe Marketo Qualifier，以便代表可以在“营销亮点”中按Marketo的实时活动查看和筛选潜在客户。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 675
+source-wordcount: '677'
 ht-degree: 1%
-
 ---
-
 
 # 设置营销亮点
 
@@ -31,7 +35,7 @@ ht-degree: 1%
 设置分为四个部分：
 
 * A部分：在Adobe Developer Console中创建API凭据。
-* B部分：收集Sales Qualifier端点和标识符。
+* B部分：收集您的Adobe Marketo限定符端点和标识符。
 * C部分：在[!DNL Marketo Engage]中配置webhook。
 * 第D部分：将webhook添加到触发器Smart Campaign。
 
@@ -39,19 +43,19 @@ ht-degree: 1%
 
 ## A部分：创建API凭据 {#part-a-create-api-credentials}
 
-这些凭据允许[!DNL Marketo]安全地向Sales Qualifier进行身份验证。
+这些凭据允许[!DNL Marketo]安全地对Marketo限定符进行身份验证。
 
 要创建凭据，请执行以下操作：
 
 1. 转到[Adobe Developer Console](https://developer.adobe.com/console/)并使用您的Adobe ID登录。
 1. 选择&#x200B;**[!UICONTROL 创建新项目]**，或打开现有项目。
-1. 选择&#x200B;**[!UICONTROL 编辑项目]**，将该项目重命名为可识别的项目，如`Sales Qualifier Marketing Highlights`，然后选择&#x200B;**[!UICONTROL 保存]**。
+1. 选择&#x200B;**[!UICONTROL 编辑项目]**，将该项目重命名为可识别的项目，如`Marketo Qualifier Marketing Highlights`，然后选择&#x200B;**[!UICONTROL 保存]**。
 1. 选择&#x200B;**[!UICONTROL 添加API]**，选择&#x200B;**[!UICONTROL Experience Platform API]**，然后选择&#x200B;**[!UICONTROL 下一步]**。
 1. 选择&#x200B;**[!UICONTROL OAuth服务器到服务器]**&#x200B;作为身份验证类型，然后选择&#x200B;**[!UICONTROL 下一步]**。
 
-   **[!UICONTROL OAuth服务器到服务器]**&#x200B;允许[!DNL Marketo]直接从服务器调用Sales Qualifier API，无需人员登录。
+   **[!UICONTROL OAuth服务器到服务器]**&#x200B;允许[!DNL Marketo]直接从服务器调用Marketo限定符API，无需人员登录。
 
-1. 输入不超过45个字符的凭据名称，如`Sales Qualifier Marketing Highlights Creds`。
+1. 输入不超过45个字符的凭据名称，如`Marketo Qualifier Marketing Highlights Creds`。
 1. 选择要关联的产品配置文件，然后选择&#x200B;**[!UICONTROL 保存配置的API]**。
 1. 在&#x200B;**[!UICONTROL 连接的凭据]**&#x200B;下，打开&#x200B;**[!UICONTROL OAuth服务器到服务器]**&#x200B;凭据。 选择&#x200B;**[!UICONTROL 检索客户端密钥]**，然后复制&#x200B;**[!UICONTROL 客户端ID]**&#x200B;和&#x200B;**[!UICONTROL 客户端密钥]**。 在[部分C](#part-c-configure-the-marketo-webhook)中使用这些值。
 
@@ -63,9 +67,9 @@ ht-degree: 1%
 
 [部分C](#part-c-configure-the-marketo-webhook)需要三个值：
 
-* **端点URL** — 您所在地区的Sales Qualifier webhook地址。
+* **端点URL** — 您所在地区的Marketo限定符webhook地址。
 * **imsOrg ID** — 贵组织在Adobe Identity Management System (IMS)中的标识符，格式为`{ORG_ID}@AdobeOrg`。
-* **沙盒名称** — 您的AEP沙盒的名称与在Sales Qualifier URL中显示的名称（`sname`值）完全相同，而不是在UI中显示的显示名称。 使用小写URL值，例如`prod`，而不是`Prod`。
+* **沙盒名称** — 您的AEP沙盒的名称，与在Marketo限定符URL（`sname`值）中显示的名称完全相同，而不是在UI中显示的显示名称。 使用小写URL值，例如`prod`，而不是`Prod`。
 
 | 区域 | Webhook端点URL |
 | --- | --- |
@@ -166,7 +170,7 @@ ht-degree: 1%
 
 ## D部分：将webhook添加到触发器Smart Campaign {#part-d-add-the-webhook-to-a-trigger-smart-campaign}
 
-将&#x200B;**[!UICONTROL Call Webhook]**&#x200B;流程步骤添加到触发智能营销活动（现有或新步骤）。 智能列表会在该营销策划中触发，从而决定要将哪些活动发送到Sales Qualifier。
+将&#x200B;**[!UICONTROL Call Webhook]**&#x200B;流程步骤添加到触发智能营销活动（现有或新步骤）。 智能列表会在该营销活动中触发，从而决定要将哪些活动发送到Marketo Qualifier。
 
 要添加webhook，请执行以下操作：
 
@@ -175,7 +179,7 @@ ht-degree: 1%
 1. 在&#x200B;**[!UICONTROL 流]**&#x200B;选项卡上，添加&#x200B;**[!UICONTROL 调用Webhook]**&#x200B;步骤，并选择您在[C](#part-c-configure-the-marketo-webhook)部分中创建的webhook。
 1. 激活Smart Campaign。
 
-来自该Smart Campaign的活动现在流入Sales Qualifier。 代表可以在&#x200B;**[!UICONTROL 潜在客户]** > **[!UICONTROL 营销亮点]**&#x200B;上查看和筛选此活动。
+该Smart Campaign中的活动现在流入Marketo限定符。 代表可以在&#x200B;**[!UICONTROL 潜在客户]** > **[!UICONTROL 营销亮点]**&#x200B;上查看和筛选此活动。
 
 >[!MORELIKETHIS]
 >

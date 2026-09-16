@@ -1,22 +1,24 @@
 ---
-title: Sales Qualifier中的帐户
-description: 了解如何在Sales Qualifier中查看客户情报（包括AI研究、最新新闻、机会和主要参与联系人）以优先开展外联。
+title: Adobe Marketo中的帐户限定符
+description: 了解如何在Adobe Marketo Qualifier中查看客户情报（包括AI研究、最近的新闻、机会和主要参与联系人）以优先开展外展活动。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '646'
 ht-degree: 0%
-
 ---
-
 
 # 帐户
 
@@ -31,7 +33,7 @@ ht-degree: 0%
 
 ![包含“人员”和“帐户”选项卡的“目标客户”详细信息页面](./assets/account-home.png){width="800" zoomable="yes"}
 
-Sales Qualifier从潜在客户的CRM记录中标识帐户。 每个与该帐户关联的目标客户都可以使用相同的帐户视图。 如果Sales Qualifier无法匹配帐户，则选项卡显示&#x200B;_未找到帐户_。
+Adobe Marketo限定符从潜在客户的CRM记录中标识帐户。 每个与该帐户关联的目标客户都可以使用相同的帐户视图。 如果Marketo限定符无法与帐户匹配，则选项卡显示&#x200B;_未找到帐户_。
 
 >[!NOTE]
 >

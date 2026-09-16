@@ -1,14 +1,12 @@
 ---
-user-guide-title: 销售限定词
-user-guide-description: 了解如何使用Sales Qualifier为B2B销售团队自动化潜在客户鉴别、外联和买方参与。
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+user-guide-title: Adobe Marketo限定符
+user-guide-description: 了解如何使用Adobe Marketo Qualifier为B2B销售团队自动进行潜在客户鉴别、外联和买方参与。
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 27%
-
+source-wordcount: '51'
+ht-degree: 21%
 ---
-
-# Sales Qualifier指南 {#using}
+# Adobe Marketo鉴定表指南 {#using}
 
 + [概述](home.md)
 + [发行说明](release-notes.md)

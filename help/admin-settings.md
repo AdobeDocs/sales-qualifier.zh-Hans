@@ -1,46 +1,48 @@
 ---
 title: 管理员设置
-description: 了解如何管理CRM字段、活动同步、电子邮件选择退出和其他Sales Qualifier管理设置。
+description: 了解如何管理CRM字段、活动同步、电子邮件选择退出和其他Adobe Marketo限定符管理设置。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
+
 internal-label: Administration
-source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 1089
+source-wordcount: '1091'
 ht-degree: 0%
-
 ---
-
 
 # 管理员设置
 
 使用&#x200B;**[!UICONTROL 管理员设置]**&#x200B;配置CRM集成、管理知识中心和配置电子邮件选择退出。
 
-Sales Qualifier可连接到Salesforce或Microsoft Dynamics 365。 该连接使Account Qualification Agent (AQA)可以一致地查看潜在客户、客户、联系人、活动和所有者。 Sales Qualifier还可以将外联活动和选择退出状态写回CRM，并将外联活动与Marketo同步。
+Adobe Marketo限定符连接到Salesforce或Microsoft Dynamics 365。 该连接使Account Qualification Agent (AQA)可以一致地查看潜在客户、客户、联系人、活动和所有者。 Marketo Qualifier还可以将外联活动和选择退出状态写回CRM，并将外联活动与Marketo同步。
 
 要配置CRM连接、字段映射和活动同步，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管理员设置]** > **[!UICONTROL CRM连接]**。 标准用户可以使用配置的CRM数据和过滤器，但无法更改这些设置。 若要首次连接CRM，请参阅[开始使用](getting-started.md#connect-your-crm)。
 
 >[!IMPORTANT]
 >
->访问&#x200B;**[!UICONTROL 管理员设置]**&#x200B;需要`Sales Qualifier`和`Sales Qualifier Admins`用户组的成员资格。
+>访问&#x200B;**[!UICONTROL 管理员设置]**&#x200B;需要`Marketo Qualifier`和`Marketo Qualifier Admins`用户组的成员资格。
 
 ## CRM MCP和嵌入式插件
 
-Sales Qualifier通过以下方式与您的CRM配合使用：
+Marketo限定符可通过以下方式与您的CRM配合使用：
 
 * **CRM MCP查询** — Account Qualification Agent查询实时CRM数据，以便回答和分析反映记录的当前状态。
-* **嵌入式插件**—CRM插件在您的CRM中显示[!DNL Marketo Sales Insights] (MSI)分析和代理数据。 使用该插件向Sales Qualifier添加潜在客户。
+* **嵌入式插件**—CRM插件在您的CRM中显示[!DNL Marketo Sales Insights] (MSI)分析和代理数据。 使用该插件将潜在客户添加到Marketo Qualifier。
 * **活动同步** — 当管理员打开&#x200B;**[!UICONTROL 活动同步]**&#x200B;时，外联活动将同步到CRM和Marketo。
 
 ## CRM访问范围
 
-Sales Qualifier从CRM中读取用户、联系人、所有者映射、潜在客户、帐户、机会和活动。 它只将记录的外联活动和选择退出状态写入CRM，并将外联活动同步到Marketo。 您的CRM管理员已在Salesforce或Dynamics中准备API访问权限。 然后，Sales Qualifier管理员会连接CRM、映射入站字段并选择是否同步活动。
+Marketo Qualifier可从CRM中读取用户、联系人、所有者映射、潜在客户、帐户、机会和活动。 它只将记录的外联活动和选择退出状态写入CRM，并将外联活动同步到Marketo。 您的CRM管理员已在Salesforce或Dynamics中准备API访问权限。 然后，Marketo限定符管理员会连接CRM、映射入站字段并选择是否同步活动。
 
 >[!NOTE]
 >
@@ -48,7 +50,7 @@ Sales Qualifier从CRM中读取用户、联系人、所有者映射、潜在客�
 
 ## 映射CRM字段（入站映射）
 
-连接CRM后，为连接选择&#x200B;**[!UICONTROL 管理]**&#x200B;并打开&#x200B;**[!UICONTROL 入站映射]**。 入站映射控制Sales Qualifier将哪些CRM字段拉入应用程序。
+连接CRM后，为连接选择&#x200B;**[!UICONTROL 管理]**&#x200B;并打开&#x200B;**[!UICONTROL 入站映射]**。 入站映射控制Marketo限定符将哪些CRM字段拉入应用程序。
 
 1. 选择&#x200B;**[!UICONTROL 添加节]**。
 1. 输入节名称和说明。
@@ -60,7 +62,7 @@ Sales Qualifier从CRM中读取用户、联系人、所有者映射、潜在客�
 1. 为要作为&#x200B;**[!UICONTROL 潜在客户]**&#x200B;列表中的筛选条件提供的每个潜在客户、联系人或机会字段打开&#x200B;**[!UICONTROL 可筛选]**。
 1. 预览该部分并选择&#x200B;**[!UICONTROL 添加]**。
 
-映射的字段显示在Sales Qualifier的相应区域中：
+映射的字段显示在Marketo限定符的相应区域中：
 
 * 目标客户字段显示在&#x200B;**[!UICONTROL 人员]**&#x200B;选项卡上。
 * 帐户字段显示在&#x200B;**[!UICONTROL 帐户]**&#x200B;选项卡上。
@@ -70,13 +72,13 @@ Sales Qualifier从CRM中读取用户、联系人、所有者映射、潜在客�
 
 1. 从&#x200B;**[!UICONTROL CRM连接]**&#x200B;中，为连接的CRM选择&#x200B;**[!UICONTROL 管理]**。
 1. 打开&#x200B;**[!UICONTROL 出站映射]**。
-1. 打开&#x200B;**[!UICONTROL 活动同步]**&#x200B;以将Sales Qualifier外联活动同步回CRM和Marketo。
+1. 打开&#x200B;**[!UICONTROL 活动同步]**&#x200B;以将Marketo限定符外展活动同步回CRM和Marketo。
 
-关闭活动同步后，Sales Qualifier将继续使用入站CRM数据，但不会将外联活动与CRM或Marketo同步。
+关闭活动同步后，Marketo Qualifier将继续使用入站CRM数据，但不会将外联活动与CRM或Marketo同步。
 
 ## 配置CRM同步规则
 
-当潜在客户在出站工作流中移动时，Sales Qualifier可以将潜在客户状态更新自动写回Salesforce和Microsoft Dynamics，以便代表不再手动更新CRM。
+当潜在客户在出站工作流中移动时，Marketo限定符可以自动将潜在客户状态更新写回Salesforce和Microsoft Dynamics，因此代表不再手动更新CRM。
 
 ### CRM同步规则的用途
 
@@ -104,13 +106,13 @@ Sales Qualifier从CRM中读取用户、联系人、所有者映射、潜在客�
 
 ## 构建知识中心行动手册 {#knowledge-center}
 
-**[!UICONTROL 知识中心]**&#x200B;允许Account Qualification Agent (AQA)访问您的销售资料。 Sales Qualifier使用这些资料来生成研究、资格鉴定见解和推广活动，以反映贵组织的销售方式。 只有管理员才能构建和管理行动手册。
+**[!UICONTROL 知识中心]**&#x200B;允许Account Qualification Agent (AQA)访问您的销售资料。 Marketo Qualifier使用这些材料生成可反映贵组织销售方式的研究、资格鉴定见解和推广活动。 只有管理员才能构建和管理行动手册。
 
 ![知识中心](assets/knowledge-center.png){width="800" zoomable="yes"}
 
 1. 在左侧导航中，展开&#x200B;**[!UICONTROL 管理]**，选择&#x200B;**[!UICONTROL 管理员设置]**，然后选择&#x200B;**[!UICONTROL 知识中心]**
 1. u
-1. 设置Sales Qualifier用于调查您的公司和草稿电子邮件的&#x200B;**[!UICONTROL 公司名称]**&#x200B;和&#x200B;**[!UICONTROL 公司URL]**。
+1. 设置Marketo Qualifier用于调查您的公司和草稿电子邮件的&#x200B;**[!UICONTROL 公司名称]**&#x200B;和&#x200B;**[!UICONTROL 公司URL]**。
 1. 以PDF、PPTX或DOCX格式上传销售重头戏、理想客户档案(ICP)、定位指南和其他销售宣传资料。
 1. 选择&#x200B;**[!UICONTROL 生成行动手册]**。
 
@@ -136,7 +138,7 @@ Sales Qualifier从CRM中读取用户、联系人、所有者映射、潜在客�
 
 设置会自动保存。
 
-当目标客户选择链接时，Sales Qualifier停止向该目标客户发送电子邮件，并将选择退出状态同步到连接的CRM。
+当目标客户选择链接时，Marketo Qualifier停止向该目标客户发送电子邮件，并将选择退出状态同步到连接的CRM。
 
 ## 参考：示例API参数
 
