@@ -1,21 +1,22 @@
 ---
-title: Sales Qualifier中的任务
-description: 了解如何在Sales Qualifier任务队列中处理手动外联任务并审查代理建议的潜在客户。
+title: Adobe Marketo中的任务限定符
+description: 了解如何在Adobe Marketo Qualifier任务队列中处理手动外联任务并审查代理建议的潜在客户。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/MbTN1r-ARrW-XYtdIS-KZT7K1Lk-B3GihT8iXL60GrQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 904
+source-wordcount: '907'
 ht-degree: 0%
-
 ---
-
 
 # 任务
 
@@ -44,7 +45,7 @@ ht-degree: 0%
 
 * **[!UICONTROL LinkedIn InMail]** — 在节奏到达LinkedIn InMail步骤时创建。 工作面板显示要从LinkedIn复制和发送的内容。 展开&#x200B;**[!UICONTROL AI理由]**&#x200B;以查看理由。
 
-* **[!UICONTROL 电子邮件审核]** — 在Sales Qualifier生成潜在客户的个性化电子邮件之后创建。 选择&#x200B;**[!UICONTROL 审阅电子邮件]**&#x200B;以在开始外展之前审阅和批准草稿。 查看[查看和优化生成的电子邮件](outbound-workflows.md#review-and-refine-generated-emails)。
+* **[!UICONTROL 电子邮件审核]** — 在Adobe Marketo限定符生成潜在客户的个性化电子邮件之后创建。 选择&#x200B;**[!UICONTROL 审阅电子邮件]**&#x200B;以在开始外展之前审阅和批准草稿。 查看[查看和优化生成的电子邮件](outbound-workflows.md#review-and-refine-generated-emails)。
 
 ![电子邮件审核](assets/tasks-review.png)
 

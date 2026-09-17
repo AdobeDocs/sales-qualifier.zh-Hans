@@ -1,23 +1,25 @@
 ---
-title: Sales Qualifier中的潜在客户
-description: 了解如何在Sales Qualifier中从CRM、导入和手动添加的来源构建潜在客户列表、筛选潜在客户以及查看潜在客户详细信息。
+title: Adobe中的潜在客户Marketo限定符
+description: 了解如何在Adobe Marketo Qualifier中从CRM、导入和手动添加的来源构建潜在客户列表、筛选潜在客户以及查看潜在客户详细信息。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: '701'
 ht-degree: 1%
-
 ---
-
 
 # 潜在客户
 
@@ -34,9 +36,9 @@ ht-degree: 1%
 
 潜在客户列表将来自多个来源的人员组合在一起：
 
-* **CRM潜在客户** — Sales Qualifier会自动导入分配给连接用户的潜在客户和联系人。 查看[集成](integrations.md)。
+* **CRM潜在客户** — Adobe Marketo限定符会自动导入分配给连接用户的潜在客户和联系人。 查看[集成](integrations.md)。
 * **导入的潜在客户** — 从CSV文件导入的潜在客户。
-* **手动添加潜在客户** — 单个潜在客户已添加到Sales Qualifier中。
+* **手动添加潜在客户** — 单个潜在客户已添加到Marketo限定符中。
 
 要添加不来自您的CRM的潜在客户，请执行以下操作：
 
@@ -48,7 +50,7 @@ ht-degree: 1%
 
    * 对于CSV导入，请上传`firstname,email`格式的CSV。
      名字和电子邮件为必填项。 姓氏是可选的。 CSV模板不包括CRM商机ID列，但您可以在导入之前将该列及其值添加到文件中。 如果导入失败，请查看错误消息以了解要更正的字段或值，然后再次上传文件。
-     映射任何自定义或附加CSV字段，而不仅仅是标准字段。 Sales Qualifier会将这些值保存到每个潜在客户中，并在以后提供这些值，包括生成[电子邮件](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)。
+     映射任何自定义或附加CSV字段，而不仅仅是标准字段。 Marketo限定符会将这些值保存到每个潜在客户中，并在以后提供这些值，包括生成[电子邮件](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)。
    * 要手动添加人员，请在表单中输入其详细信息。
 
 1. 选择&#x200B;**[!UICONTROL 保存]**。
@@ -79,7 +81,7 @@ ht-degree: 1%
 
 每个潜在客户显示其最新的[!DNL Marketo]活动以及最近的历史记录。
 
-营销亮点适用于所有生产区域。 管理员完成一次性设置，将[!DNL Marketo]连接到Sales Qualifier。 请参阅[设置营销亮点](integrations.md#turn-on-marketo-engagement-filtering)。
+营销亮点适用于所有生产区域。 管理员完成一次性设置，将[!DNL Marketo]连接到Marketo限定符。 请参阅[设置营销亮点](integrations.md#turn-on-marketo-engagement-filtering)。
 
 ## 查看目标客户详细信息
 
